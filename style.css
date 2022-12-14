@@ -1,0 +1,130 @@
+body {
+  background-image: url(./image/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;}
+
+
+
+.navbar {
+
+  opacity: 0.7;
+  position:relative;
+  margin: 10px 0px;
+  padding: 16px ;
+  background-color:black;
+display: block;}
+
+  
+
+
+.navbar a {
+  display:inline;
+  color:beige;
+font-size: 30px;
+font-weight: 200px;
+  padding: 30px;
+  text-decoration:dotted;
+ 
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border: 2px black solid;
+    border-radius: 500px;
+    background-image: url(./image/leila.jpg);
+    background-size: cover;
+     
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h2{
+    color:black;
+    text-align: center;
+font-size:x-large;
+font-weight:bolder;
+margin: 30px;
+}
+.icons{
+display: block;
+margin: auto;
+text-align: right;
+
+   
+}
+.icons i {
+color:rgb(224, 206, 188);
+font-size: larger;
+
+ 
+}
+.icons a {
+    color: rgb(209, 194, 180);
+    font-size:smaller;
+    font-style: italic;
+  
+
+
+}
+table, th, td {
+    background-color:rgb(26, 13, 1);
+    opacity: 0.9;
+      width: 100px;
+      height: 40px;
+   padding: 8px;
+   margin: auto;
+        border: 0.5px solid rgb(100, 51, 19);
+        border-radius: 2px;
+color:white; 
+font-size: large; }    
+
+form{
+    margin: auto;
+  width: 380px;
+   border: 2px black solid;
+    border-radius: 40px ;
+    background-color:burlywood;
+    padding: 10px;
+    color: beige;
+     text-align: center;
+    opacity: 0.9;
+}
+label{
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+font-style: normal;
+ }
+ input{
+
+   
+   border-style:2px outset;
+   border-radius: 10px;
+    background-color: beige;
+    padding: 7px 30px;
+    color: #000;
+    font-weight: bolder;
+ }
+.button{   background-color:rgb(80, 45, 10);
+  border: none;
+  color: beige;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor:pointer
+}
+
+ .button:hover 
+ { 
+    color:palevioletred
+  
+}
+.button:active{
+    color: rgb(218, 207, 60);
+}
+
+
